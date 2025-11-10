@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Sign Up - Opal44">
+    <meta property="og:description" content="Start your free trial with Opal44 and get AI-powered analytics insights">
+    <meta property="og:image" content="https://mocha-cdn.com/og.png" type="image/png">
+    <meta property="og:url" content="https://opal44.com/signup">
+    <meta property="og:type" content="website">
+    <title>Sign Up - Opal44</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        * { font-family: 'Inter', system-ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between py-4 md:py-6">
+                <a href="index.html" class="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path>
+                    </svg>
+                    <span class="text-xl md:text-2xl font-bold text-gray-900">Opal44</span>
+                </a>
+                <div class="md:hidden">
+                    <a href="index.html" class="text-gray-600 hover:text-gray-900 text-sm">
+                        ← Back
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sign Up Content -->
+    <div class="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-24 md:pt-32 pb-8 md:pb-16 min-h-screen">
+        <div class="max-w-md w-full">
+            <!-- Sign Up Panel -->
+            <div class="bg-white rounded-2xl p-8 shadow-xl border border-gray-200">
+                <div class="text-center mb-8">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-4">
+                        Start Your Free Trial
+                    </h1>
+                    <p class="text-gray-600">
+                        Get AI-powered insights about your website traffic in plain English. No credit card required.
+                    </p>
+                </div>
+
+                <!-- Contact Form for Demo -->
+                <form id="signup-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors" placeholder="Your full name">
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors" placeholder="your@email.com">
+                    </div>
+                    
+                    <div>
+                        <label for="website" class="block text-sm font-medium text-gray-700 mb-2">Website URL (Optional)</label>
+                        <input type="url" id="website" name="website" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors" placeholder="https://yourwebsite.com">
+                    </div>
+
+                    <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-200 hover:shadow-lg">
+                        Start Free Trial
+                    </button>
+                </form>
+
+                <!-- Features List -->
+                <div class="mt-8 pt-6 border-t border-gray-200">
+                    <p class="text-sm text-gray-600 text-center mb-4">What you'll get:</p>
+                    <ul class="space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center space-x-2">
+                            <div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+                            <span>7 days free trial</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+                            <span>Plain English analytics insights</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+                            <span>50 credits to try it out</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+                            <span>No credit card required</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Terms -->
+                <p class="text-xs text-gray-500 text-center mt-6">
+                    By signing up, you agree to our 
+                    <a href="terms-of-service.html" class="text-blue-600 hover:underline">Terms of Service</a> and 
+                    <a href="privacy-policy.html" class="text-blue-600 hover:underline">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="col-span-1">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"></path>
+                        </svg>
+                        <span class="text-2xl font-bold">Opal44</span>
+                    </div>
+                    <p class="text-gray-400 mb-6 max-w-md">
+                        Making web analytics simple and actionable. Get insights about your website traffic in plain English that anyone can understand.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="partners.html" class="hover:text-white transition-colors">Partner Program</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2025 Opal44. All rights reserved.</p>
+                <div class="flex space-x-6 text-sm text-gray-400 mt-4 md:mt-0">
+                    <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a>
+                    <a href="sitemap.html" class="hover:text-white transition-colors">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Show success message
+            alert('Thank you for your interest! In a working version, this would create your account and start your free trial.');
+            
+            // In a real implementation, you would send this data to your backend
+            console.log('Sign up data:', data);
+        });
+    </script>
+</body>
+</html>
